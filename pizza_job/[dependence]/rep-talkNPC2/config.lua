@@ -1,0 +1,11 @@
+Config = {}
+Config.Target = 'ox_target' -- // qb-target or qtarget
+Config.Talk = "Parle à %s"
+Config.Color = {
+    -- If youre too lazy to pick a color. Use a range of Mantine default colors
+    -- which could be found at https://mantine.dev/theming/colors/#default-colors
+    -- using the syntax: "{color}.{shade}"
+    -- also supports colors in Hex
+    primaryColor = "#0060F7",   -- Button hover effect
+    secondaryColor = "#2E67E7" -- Npc default tag color if you don't set them while creating
+}
